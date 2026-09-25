@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #252525;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+header {
+    background-color: #172026;
+    padding: 18px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5fa8aa;
+}
+
+/* Main sections */
+section {
+    padding: 70px 8%;
+}
+
+/* Hero section */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #34454c;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 22px;
+    color: #5fa8aa;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #e5e7e9;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #5fa8aa;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #3f8588;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #24565a;
+}
+
+/* About section */
+.about {
+    background-color: #f1f3f5;
+    text-align: center;
+}
+
+.about h2,
+.projects h2,
+.contact h2 {
+    color: #263238;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 750px;
+    margin: 0 auto 15px;
+}
+
+/* Projects section */
+.projects {
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.projects p {
+    max-width: 650px;
+    margin: auto;
+}
+
+/* Contact section */
+.contact {
+    background-color: #f1f3f5;
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #2f6f73;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #172026;
+    color: white;
+    padding: 35px 8% 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-about h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.footer-about p {
+    color: #cbd1d3;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-contact h4 {
+    margin-bottom: 8px;
+}
+
+.footer-contact a {
+    color: #5fa8aa;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #3b474c;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-align: center;
+    color: #aeb7ba;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* Footer on smaller screens */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+}
+
+/* Small screens - supports the required 320px width */
+@media (max-width: 480px) {
+
+    section {
+        padding: 50px 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .tagline {
+        font-size: 18px;
+    }
+
+    .hero-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Footer on very small screens */
+    footer {
+        padding: 30px 20px 15px;
+    }
+
+    .footer-about h3 {
+        font-size: 20px;
+    }
+
+    .footer-about p {
+        font-size: 14px;
+    }
+
+    .footer-contact {
+        font-size: 14px;
+    }
+}
