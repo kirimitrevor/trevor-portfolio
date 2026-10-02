@@ -132,9 +132,49 @@ section {
     text-align: center;
 }
 
-.projects p {
-    max-width: 650px;
-    margin: auto;
+.projects h1 {
+    color: #263238;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #d9dfe1;
+    border-radius: 5px;
+    padding: 25px;
+    width: 300px;
+    text-align: left;
+}
+/* Project thumbnails */
+.project-card img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+
+.project-card h2 {
+    color: #263238;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    margin-bottom: 12px;
+}
+
+.project-card .button {
+    margin-top: 5px;
 }
 
 /* Contact section */
@@ -280,4 +320,132 @@ footer {
     .footer-contact {
         font-size: 14px;
     }
+}
+/* Skills Section */
+.skills {
+    background-color: #f1f3f5;
+    text-align: center;
+}
+
+.skills h1 {
+    color: #263238;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.skill {
+    max-width: 650px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.skill p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #d9dfe1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    background-color: #3f8588;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+.skill-level.html {
+    width: 70%;
+}
+
+.skill-level.javascript {
+    width: 55%;
+}
+
+.skill-level.networking {
+    width: 60%;
+}
+
+.skill-level.cybersecurity {
+    width: 50%;
+}
+
+.skill-level.troubleshooting {
+    width: 65%;
+}
+/* Services Section */
+.services {
+    background-color: #f1f3f5;
+    text-align: center;
+}
+
+.services h1 {
+    color: #263238;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #d9dfe1;
+    border-radius: 5px;
+    padding: 20px;
+    width: 280px;
+}
+
+.service h2 {
+    color: #263238;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* Contact Form */
+#contactForm {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#contactForm div {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd1d3;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #3f8588;
+}
+
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
 }

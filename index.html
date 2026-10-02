@@ -17,7 +17,7 @@
 
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -84,8 +84,12 @@
             <h2>Projects</h2>
 
             <p>
-                My projects will be added in Assignment 2.
+                My projects are available on the Projects page.
             </p>
+
+            <a href="projects.html" class="button">
+                View My Projects
+            </a>
 
         </section>
 
@@ -98,6 +102,31 @@
                 I would be happy to connect and discuss technology,
                 cybersecurity and learning opportunities.
             </p>
+
+            <form id="contactForm">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="button">
+                    Send Message
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
 
             <p>
                 Email:
@@ -180,6 +209,8 @@
         </div>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
