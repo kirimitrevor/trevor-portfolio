@@ -4,7 +4,7 @@
 
 This is a personal portfolio website created for the CSN 1101: Web Technologies and Internet Applications assignment at KCA University.
 
-The website introduces me, provides information about my interests in Cyber Security and Digital Forensic, and includes my contact information and professional links.
+The website introduces me, provides information about my interests in Cyber Security and Digital Forensics, and includes my contact information and professional links.
 
 ## Assignment 1 - Personal Portfolio
 
@@ -26,7 +26,7 @@ The original portfolio contains:
 
 ## Assignment 2 - Projects, Skills & Services
 
-Assignment 2 extends the personal portfolio created in Assignment 1. The existing portfolio was maintained while additional pages, features and JavaScript functionality were added.
+Assignment 2 extends the personal portfolio created in Assignment 1. The existing portfolio was maintained while additional pages, features, and JavaScript functionality were added.
 
 ### Assignment 2 Additions
 
@@ -50,7 +50,6 @@ Assignment 2 extends the personal portfolio created in Assignment 1. The existin
 
 ```text
 trevor-portfolio/
-
 │
 ├── index.html
 ├── projects.html
@@ -75,8 +74,12 @@ https://kirimitrevor.github.io/trevor-portfolio/
 
 https://trevor-portfolio-nine.vercel.app/
 
+## GitHub Repository
+
+https://github.com/kirimitrevor/trevor-portfolio
+
 ## Author
 
 **Trevor Kirimi**
 
-Cyber Security and Digital Forensic Student
+Cyber Security and Digital Forensics Student
