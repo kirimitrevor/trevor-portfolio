@@ -32,6 +32,7 @@ Assignment 2 extends the personal portfolio created in Assignment 1. The existin
 
 * Skills section with visual proficiency bars
 * Three project cards with descriptions and technologies
+* Project thumbnails and placeholder visuals
 * Services section
 * JavaScript Show More/Show Less interaction
 * Contact form with client-side validation
@@ -58,7 +59,10 @@ trevor-portfolio/
 ├── README.md
 │
 └── assets/
-    └── headshot.jpg
+    ├── headshot.jpg
+    ├── Personal Portfolio.png
+    ├── cybersecurity.jpg
+    └── login.jpg
 ```
 
 ## Live Website
