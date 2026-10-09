@@ -54,13 +54,15 @@ Assignment 3 connects the portfolio to a live public API and applies security an
 
 | Run | Performance |
 |-----|-------------|
-| Before optimisation | 57 |
-| After optimisation | (to be added) |
+| Before optimisation | 96 |
+| After optimisation | 99 |
+
+Both scores were measured with Chrome Lighthouse (Mobile, Navigation) on the same laptop. The "before" score is the previous Vercel deployment (original images) and the "after" score is the current deployment (compressed images and lazy loading). Results can vary slightly between runs.
 
 ### Assignment 3 Additions
 
-* Live API integration (to be added)
-* Security review
+* Live API integration: the GitHub REST API (Fetch API) lists my public repositories on the Projects page, with a loading state and a friendly error message
+* Security review: no API keys or secrets in the code, dynamic content inserted with textContent (no innerHTML), and both sites served over HTTPS
 * Image compression and lazy loading
 
 ## Project Structure
@@ -72,6 +74,7 @@ trevor-portfolio/
 ├── projects.html
 ├── style.css
 ├── script.js
+├── github.js
 ├── README.md
 │
 └── assets/
