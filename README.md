@@ -46,6 +46,23 @@ Assignment 2 extends the personal portfolio created in Assignment 1. The existin
 * CSS3
 * JavaScript
 
+## Assignment 3 - Live Data & Production Polish
+
+Assignment 3 connects the portfolio to a live public API and applies security and performance practices.
+
+### Lighthouse Performance Score (Mobile)
+
+| Run | Performance |
+|-----|-------------|
+| Before optimisation | 57 |
+| After optimisation | (to be added) |
+
+### Assignment 3 Additions
+
+* Live API integration (to be added)
+* Security review
+* Image compression and lazy loading
+
 ## Project Structure
 
 ```text
